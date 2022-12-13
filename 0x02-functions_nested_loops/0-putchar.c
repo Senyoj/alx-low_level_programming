@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * main - print _putchar
- * written by senyo
  * Return: 0
 */
 
@@ -16,4 +15,5 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
+
 return (0);
