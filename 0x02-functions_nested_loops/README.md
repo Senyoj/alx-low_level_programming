@@ -1,1 +1,1 @@
-0._putchar
+alx variabels and task
