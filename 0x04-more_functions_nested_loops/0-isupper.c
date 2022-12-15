@@ -1,13 +1,10 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
- * _isupper - check for uppercase characters
- * @c: The character to be checked
- *
- * Return: 1 if character is uppercase, 0 otherwise
+ * _putchar - writes the character c to stdout 
+ * Return: 1
 */
-
-int _isupper(int c)
+int _putchar(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
