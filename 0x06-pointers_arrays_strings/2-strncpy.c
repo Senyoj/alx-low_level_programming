@@ -1,21 +1,27 @@
 #include "main.h"
+
 /**
- *_strncat - concatenate teo strings but add the inputted number of bytes
- * @dest: string to be appende upon
- * @src: string to be completed to end of dest
- * @n: integer parameter to complex index to
- * Return: returns new concatenated string
+ * _strncpy - copy a string
+ * @dest: input value @src: input value
+ * @src: input value
+ * @n: input value
+ * Reeturn: dest
  */
-
-char *strncat(char *s = dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int index = 0, dest_len = 0;
+	int j;
 
-	while (dest[index++])
-		dest_len++;
-
-	for (index = 0; src[index] && index < n; index++)
-		dest[dest_len++] = src[index]
-
+	j = 0;
+	while (j < n && src[j] != '\0'
+	{
+	dest[j] = src[j];
+	j++
+	}
+	while (j < n)
+	{
+	dest[j] = '\0';
+	j++;
+	}
 	return (dest);
 }
+
