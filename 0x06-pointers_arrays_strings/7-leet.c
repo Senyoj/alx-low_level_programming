@@ -14,7 +14,6 @@ char *leet(char *X)
 	while (x[a])
 	{
 		b = 0;
-	
 		while (b < l)
 		{
 			if (x[a] == tr[b] || x[a] - 32 == tr[b])
